@@ -1,10 +1,6 @@
 #include<iostream>
 #include<cstdio>
 #include<cstring>
-/*
-寻找都有哪些子串
-不能保证是字母或数字，所以子节点有差不多130个
-*/
 using namespace std;
 
 const int N=130;
@@ -27,6 +23,9 @@ char word[520];     //输入的单词
 char str[1000010];  //模式串
 int head,tail;      //队列的头尾指针
 
+
+
+//建立Trie
 void Insert(char *str,Trie *Root,int id){
     Trie *loc=Root;
     int i=0;
@@ -40,6 +39,8 @@ void Insert(char *str,Trie *Root,int id){
     loc->count=id;      //初始化为0，++后为1，表示是一个单词的结尾
 }
 
+
+//构造失败指针
 void AC_automation(Trie *Root){
     Root->fail=NULL;
     q[head++]=Root;
@@ -69,11 +70,13 @@ void AC_automation(Trie *Root){
     }
 }
 
+
+//匹配过程
 int query(Trie *Root){
     int i=0,cnt=0;
     Trie *loc=Root,*tmp;
     while(str[i]!='\0'){
-        int id=str[i]-31;   //计算孩子的位置
+        int id=str[i]-31;   //计算孩子的位置   32开始ASCII是space
         while(loc->next[id]==NULL && loc!=Root){
             loc=loc->fail;  //若没有i孩子节点，通过失败指针找与这之前相同的有i孩子的节点
         }
@@ -94,20 +97,19 @@ int query(Trie *Root){
 
 int main(){
 
-printf("输入正整数N，代表给定的网址，IP个数\n");
+printf("输入正整数N，代表黑名单网址，IP个数\n");
        printf("之后N行分别输入这些网址，ip，会自动编号：1-N\n");
     while(scanf("%d",&n)!=0){
         head=tail=0;
         Trie *Root=new Trie();
-        getchar();
+                getchar();
         for(int i=1;i<=n;i++){
             gets(word);
             Insert(word,Root,i);
         }
         AC_automation(Root);
-         printf("输入正整数M，代表黑名单中网址，ip个数\n");
+         printf("输入正整数M，代表给定的网址，ip个数\n");
                printf("之后M行分别输入这些网址，ip（注意，不能相同），会自动编号：1-M\n");
-               printf("输出的形如m；n的数字代表黑明单中编号为m的网址，ip等同于给定的网址，ip\ntotal代表共有几个给定的网址，ip在黑名单中\n");
         scanf("%d",&m);
         int total=0;
         for(int i=1;i<=m;i++){
@@ -115,7 +117,7 @@ printf("输入正整数N，代表给定的网址，IP个数\n");
             scanf("%s",str);
             int flag=query(Root);
             if(flag){
-                printf("web %d:",i);
+                printf("给定的网址%d包含于黑名单",i);
                 for(int j=1;j<=n;j++)
                     if(tag[j])
                         printf(" %d",j);

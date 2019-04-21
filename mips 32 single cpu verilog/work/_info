@@ -1,0 +1,279 @@
+m255
+K3
+13
+cModel Technology
+dF:\modelsim 10.1\examples
+valu
+VW1H8`<zcXiLKMd8Hi_iC>1
+r1
+31
+IACbHPOTD7AJ7E8cB@V?c=3
+Z0 dD:\cpu\test
+w1553938018
+8D:/cpu/test/alu.v
+FD:/cpu/test/alu.v
+L0 3
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 0:cJ__Kef@InT_Gn?7EbU0
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/alu.v|
+!s108 1553943663.271000
+!s107 ctrl_encode_def.v|D:/cpu/test/alu.v|
+vctrl
+V?ofUNI_SfGKASme43JabM2
+r1
+31
+ILeSaJHfikfU;FFg:7D?]X3
+Z3 dD:\cpu\test
+w1553939300
+8D:/cpu/test/ctrl.v
+FD:/cpu/test/ctrl.v
+L0 4
+R1
+R2
+!i10b 1
+!s85 0
+!s100 G=IR>j8P<Xk`kKzh_lFog0
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/ctrl.v|
+!s108 1553943662.747000
+!s107 D:/cpu/test/ctrl.v|
+vdm
+VQ5kzjohU1HQB?iGHI7LOU0
+r1
+31
+IgB]gGbeoMD5z15@<Ooc^Q1
+R3
+w1551272336
+8D:/cpu/test/dm.v
+FD:/cpu/test/dm.v
+L0 3
+R1
+R2
+!i10b 1
+!s85 0
+!s100 79W<5[I?VI0:TEg[k??jg0
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/dm.v|
+!s108 1553943664.811000
+!s107 D:/cpu/test/dm.v|
+vEXT
+V<;>E_N0WZjXOmgdkAPRL02
+r1
+31
+I<iiBKGa<1`8oXj4T^[;_C2
+R3
+w1551201622
+8D:/cpu/test/EXT.v
+FD:/cpu/test/EXT.v
+L0 2
+R1
+R2
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 N9iUMVV`Vje5oNiE`X`TW2
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/EXT.v|
+!s108 1553943663.565000
+!s107 D:/cpu/test/EXT.v|
+vim
+!i10b 1
+VkoA3ibJYjK6f9b:B2VJKK0
+r1
+!s85 0
+31
+IQfYMQm[^dSeJN]eXS=i<S2
+R3
+w1551458228
+8D:/cpu/test/im.v
+FD:/cpu/test/im.v
+L0 3
+R1
+R2
+!s100 k_c;z9mjCZ>L@;9cE3Z4^3
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/im.v|
+!s108 1553943662.299000
+!s107 D:/cpu/test/im.v|
+vmux16
+I]meZRzT3:abBnX<OL]4ni2
+V`6=HBldE>cXC;m]K0;QI>0
+R3
+Z4 w1550765554
+Z5 8D:/cpu/test/mux.v
+Z6 FD:/cpu/test/mux.v
+L0 71
+R1
+r1
+31
+Z7 !s108 1553943662.890000
+Z8 !s107 D:/cpu/test/mux.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/mux.v|
+R2
+!s100 2BVOjlRJXa>;^C2@?HU4I3
+!i10b 1
+!s85 0
+vmux2
+VT8RWJBjAIeM]>7U=5kBkT1
+r1
+31
+IoUdnjOQRe7U>m20b7]7z;1
+R3
+R4
+R5
+R6
+L0 2
+R1
+R7
+R8
+R9
+R2
+!i10b 1
+!s85 0
+!s100 [CgCYY_ZLil^oBUWJ`WG[1
+vmux4
+V@m74j;^3XFJ7>OzQXh6V`0
+r1
+31
+I5Rn_QDbm=PP<Ad9e_cW123
+R3
+R4
+R5
+R6
+L0 15
+R1
+R7
+R8
+R9
+R2
+!i10b 1
+!s85 0
+!s100 ^dihfZD`UIEHkKn`6RMXn0
+vmux8
+IkRDz_FBijKaWHH@]Y2TZF3
+VOh>X<_n?620Z_^H7^I9KH2
+R3
+R4
+R5
+R6
+L0 40
+R1
+r1
+31
+R7
+R8
+R9
+R2
+!s100 N<JF[IiP<FeEX68k6YKO82
+!i10b 1
+!s85 0
+vNPC
+V<6;7Nj=I3:@eJ_DQHH9TX3
+r1
+31
+Ief7HJn:aZemV>dTT7k3i]2
+R3
+w1553918420
+8D:/cpu/test/NPC.v
+FD:/cpu/test/NPC.v
+L0 3
+R1
+R2
+n@n@p@c
+!i10b 1
+!s85 0
+!s100 z^4SzPBWH?]L2T7;LH`E01
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/NPC.v|
+!s108 1553943663.406000
+!s107 ctrl_encode_def.v|D:/cpu/test/NPC.v|
+vPC
+Vz>ZmmiZ`iG:Zc`EOFokET3
+r1
+31
+I0UVQ7@9J5m`D?T1=0zMMD1
+R3
+w1550113688
+8D:/cpu/test/PC.v
+FD:/cpu/test/PC.v
+L0 1
+R1
+R2
+n@p@c
+!i10b 1
+!s85 0
+!s100 0imYJ=0_:m53QWmVPI@TJ2
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/PC.v|
+!s108 1553943664.486000
+!s107 D:/cpu/test/PC.v|
+vRF
+VEWJn__zm[8SS3Z@zFLOZT3
+r1
+31
+IDBHjmaGM8NBheimK:3:[91
+R3
+w1551271794
+8D:/cpu/test/RF.v
+FD:/cpu/test/RF.v
+L0 2
+R1
+R2
+n@r@f
+!i10b 1
+!s85 0
+!s100 m2;I>aJI76k>cN=cnYG3D2
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/RF.v|
+!s108 1553943663.745000
+!s107 D:/cpu/test/RF.v|
+vsccomp
+VgVBdf]6a]6QJ4FkU3fQ153
+r1
+31
+I7S83m>BO92`COYU`0UOCT0
+R3
+w1551458210
+8D:/cpu/test/sccomp.v
+FD:/cpu/test/sccomp.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 E1<GEW:j6ILXFljZXLARA2
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/sccomp.v|
+!s108 1553943662.605000
+!s107 D:/cpu/test/sccomp.v|
+vsccomp_tb
+VciK9E@b07zQnz0QWN@GCk0
+r1
+31
+I_GklZ6WUeXcJWH0^5Y3RB0
+R3
+w1553943655
+8D:/cpu/test/sccomp_tb.v
+FD:/cpu/test/sccomp_tb.v
+L0 3
+R1
+R2
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/sccomp_tb.v|
+!s100 7KD2`RSS8o6V5heR4PK^N1
+!s108 1553943664.677000
+!s107 D:/cpu/test/sccomp_tb.v|
+vsccpu
+V2nlHBHNd:OILV4c`<oPFP3
+r1
+31
+IRH06FDTi>kQCG8_CE?bRn0
+R3
+w1553931083
+8D:/cpu/test/sccpu.v
+FD:/cpu/test/sccpu.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 f[3PkIgRWK4a2UhO28m0C2
+!s90 -reportprogress|300|-work|work|-vopt|D:/cpu/test/sccpu.v|
+!s108 1553943662.458000
+!s107 D:/cpu/test/sccpu.v|

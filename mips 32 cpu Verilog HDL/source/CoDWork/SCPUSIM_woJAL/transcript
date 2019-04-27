@@ -1,0 +1,68 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/CoDWork/SCPUSIM_woJAL/SCPUSIM_woJAL.mpf 
+# Loading project SCPUSIM_woJAL
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of EXT.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccpu.v was successful.
+# Compile of dm.v was successful.
+# Compile of im.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.sccomp
+# Loading work.sccomp
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.sccpu
+# Loading work.sccpu
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.ctrl
+# Loading work.ctrl
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.PC
+# Loading work.PC
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.NPC
+# Loading work.NPC
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.RF
+# Loading work.RF
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.mux2
+# Loading work.mux2
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.EXT
+# Loading work.EXT
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.alu
+# Loading work.alu
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.dm
+# Loading work.dm
+# Refreshing D:\CoDWork\SCPUSIM_woJAL\work.im
+# Loading work.im
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x      50] = 0x00000007,
+# r[ 2] = 0x00000007,
+# dmem[0x      54] = 0x00000007,
+# Break in Module sccomp_tb at D:/CoDWork/SCPUSIM_woJAL/sccomp_tb.v line 54
+quit

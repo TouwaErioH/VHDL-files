@@ -1,0 +1,106 @@
+F:/pipecpu2/im.v {1 {vlog -work work -vopt F:/pipecpu2/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} F:/pipecpu2/plexe.v {1 {vlog -work work -vopt F:/pipecpu2/plexe.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plexe
+
+Top level modules:
+	plexe
+
+} {} {}} F:/pipecpu2/dm.v {1 {vlog -work work -vopt F:/pipecpu2/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} F:/pipecpu2/plid.v {1 {vlog -work work -vopt F:/pipecpu2/plid.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plid
+
+Top level modules:
+	plid
+
+} {} {}} F:/pipecpu2/plreg.v {1 {vlog -work work -vopt F:/pipecpu2/plreg.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plpc
+-- Compiling module plir
+-- Compiling module plieReg
+-- Compiling module plemReg
+-- Compiling module plmwReg
+
+Top level modules:
+	plpc
+	plir
+	plieReg
+	plemReg
+	plmwReg
+
+} {} {}} F:/pipecpu2/alu.v {1 {vlog -work work -vopt F:/pipecpu2/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} F:/pipecpu2/dffe32.v {1 {vlog -work work -vopt F:/pipecpu2/dffe32.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dffe32
+
+Top level modules:
+	dffe32
+
+} {} {}} F:/pipecpu2/mux.v {1 {vlog -work work -vopt F:/pipecpu2/mux.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} F:/pipecpu2/plif.v {1 {vlog -work work -vopt F:/pipecpu2/plif.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plif
+
+Top level modules:
+	plif
+
+} {} {}} F:/pipecpu2/plcpu.v {1 {vlog -work work -vopt F:/pipecpu2/plcpu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plcpu
+
+Top level modules:
+	plcpu
+
+} {} {}} F:/pipecpu2/RF.v {1 {vlog -work work -vopt F:/pipecpu2/RF.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} F:/pipecpu2/plctrl.v {1 {vlog -work work -vopt F:/pipecpu2/plctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plctrl
+
+Top level modules:
+	plctrl
+
+} {} {}} F:/pipecpu2/plcomp.v {1 {vlog -work work -vopt F:/pipecpu2/plcomp.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plcomp
+
+Top level modules:
+	plcomp
+
+} {} {}}

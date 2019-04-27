@@ -1,0 +1,295 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\modeltech_10.1a\win32
+T_opt
+V]`N8oLhGCAm3d1@^53E7R3
+04 4 4 work ctrl fast 0
+=1-000c29a42f33-5c7a394c-33-268
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.1a;51
+Z3 dD:\modeltech_10.1a\win32
+T_opt1
+V5zK_faCW0_?a5llPbPCIF1
+04 3 4 work alu fast 0
+=1-000c29a42f33-5c7a395e-53-1638
+R1
+n@_opt1
+R2
+R3
+valu
+VBn`ji@JZJ?f27Qk1NoHCM0
+r1
+31
+Ih8iddO=4fJ<o0g:Q`kCN@2
+Z4 dD:\CoDWork\SCPUSIM_woJAL
+w1551514804
+8D:/CoDWork/SCPUSIM_woJAL/alu.v
+FD:/CoDWork/SCPUSIM_woJAL/alu.v
+L0 3
+Z5 OE;L;10.1a;51
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 FNT^Rgm8ciSP_=kf`m5H[3
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/alu.v|
+!s108 1552254228.240000
+!s107 ctrl_encode_def.v|D:/CoDWork/SCPUSIM_woJAL/alu.v|
+vctrl
+VHmAI2HCW6bh93kRL7DIE?2
+r1
+31
+I8kd7jQnb<<S:?:7M2<^>10
+R4
+w1552225205
+8D:/CoDWork/SCPUSIM_woJAL/ctrl.v
+FD:/CoDWork/SCPUSIM_woJAL/ctrl.v
+L0 4
+R5
+R6
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/ctrl.v|
+!s100 N^b2h9o29jjP0Z2U;fDQB2
+!s108 1552254228.318000
+!s107 D:/CoDWork/SCPUSIM_woJAL/ctrl.v|
+vdm
+VQ5kzjohU1HQB?iGHI7LOU0
+r1
+31
+IL:MJKf8Jehze5o1fi4JRO0
+R4
+w1551272336
+8D:/CoDWork/SCPUSIM_woJAL/dm.v
+FD:/CoDWork/SCPUSIM_woJAL/dm.v
+L0 3
+R5
+R6
+!i10b 1
+!s85 0
+!s100 JlGdgH:cTDXL`m11EmHKM2
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/dm.v|
+!s108 1552254228.880000
+!s107 D:/CoDWork/SCPUSIM_woJAL/dm.v|
+vEXT
+V<;>E_N0WZjXOmgdkAPRL02
+r1
+31
+I7Q3;WSo6H;FgW;4;2TFh:2
+R4
+w1551201622
+8D:/CoDWork/SCPUSIM_woJAL/EXT.v
+FD:/CoDWork/SCPUSIM_woJAL/EXT.v
+L0 2
+R5
+R6
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 E_h:B?6=cN?_cFcimNT9E1
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/EXT.v|
+!s108 1552254228.458000
+!s107 D:/CoDWork/SCPUSIM_woJAL/EXT.v|
+vim
+!i10b 1
+VkoA3ibJYjK6f9b:B2VJKK0
+r1
+!s85 0
+31
+IeOTW^;Q:06WID:K>YWXd53
+R4
+w1551458228
+8D:/CoDWork/SCPUSIM_woJAL/im.v
+FD:/CoDWork/SCPUSIM_woJAL/im.v
+L0 3
+R5
+R6
+!s100 aV_64kRPH0K`e51`8W[^_3
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/im.v|
+!s108 1552254228.958000
+!s107 D:/CoDWork/SCPUSIM_woJAL/im.v|
+vmux16
+Ik85Sn3[3NB@_O5bZVBzgH3
+V`6=HBldE>cXC;m]K0;QI>0
+R4
+Z7 w1550765554
+Z8 8D:/CoDWork/SCPUSIM_woJAL/mux.v
+Z9 FD:/CoDWork/SCPUSIM_woJAL/mux.v
+L0 71
+R5
+r1
+31
+Z10 !s108 1552254228.520000
+Z11 !s107 D:/CoDWork/SCPUSIM_woJAL/mux.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/mux.v|
+R6
+!s100 5zJ100makzIbTc3DkYGB21
+!i10b 1
+!s85 0
+vmux2
+VT8RWJBjAIeM]>7U=5kBkT1
+r1
+31
+IX1bPTLfH<2IIZ0RO=B^Ti3
+R4
+R7
+R8
+R9
+L0 2
+R5
+R10
+R11
+R12
+R6
+!i10b 1
+!s85 0
+!s100 MA;J:K8KlLkO4Bh`g_c:V0
+vmux4
+I:Ll@92A`dPQN;_CbUEBFJ3
+V@m74j;^3XFJ7>OzQXh6V`0
+R4
+R7
+R8
+R9
+L0 15
+R5
+r1
+31
+R10
+R11
+R12
+R6
+!s100 7hKSdFHZenDenR99^V5m]3
+!i10b 1
+!s85 0
+vmux8
+IlZdglngA9Fo]d^gGg2JSf1
+VOh>X<_n?620Z_^H7^I9KH2
+R4
+R7
+R8
+R9
+L0 40
+R5
+r1
+31
+R10
+R11
+R12
+R6
+!s100 nifd`k?Y41>[=dTUaYlLl0
+!i10b 1
+!s85 0
+vNPC
+VM0b<M>?BI]?[jjz1eZRi32
+r1
+31
+ITjK3R`2A]FRCI;<j9N_Oz3
+R4
+w1551202020
+8D:/CoDWork/SCPUSIM_woJAL/NPC.v
+FD:/CoDWork/SCPUSIM_woJAL/NPC.v
+L0 3
+R5
+R6
+n@n@p@c
+!i10b 1
+!s85 0
+!s100 TQ<P?1hKLOoWcch:n:lGh2
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/NPC.v|
+!s108 1552254228.614000
+!s107 ctrl_encode_def.v|D:/CoDWork/SCPUSIM_woJAL/NPC.v|
+vPC
+Vz>ZmmiZ`iG:Zc`EOFokET3
+r1
+31
+Ilg]mXD?3=d@B93goR70ij0
+R4
+w1550113688
+8D:/CoDWork/SCPUSIM_woJAL/PC.v
+FD:/CoDWork/SCPUSIM_woJAL/PC.v
+L0 1
+R5
+R6
+n@p@c
+!i10b 1
+!s85 0
+!s100 9BhRk108hDUDTF7]k9_J63
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/PC.v|
+!s108 1552254228.677000
+!s107 D:/CoDWork/SCPUSIM_woJAL/PC.v|
+vRF
+VEWJn__zm[8SS3Z@zFLOZT3
+r1
+31
+IU3Z3=3Vi<[bfoe_;:T8:E2
+R4
+w1551271794
+8D:/CoDWork/SCPUSIM_woJAL/RF.v
+FD:/CoDWork/SCPUSIM_woJAL/RF.v
+L0 2
+R5
+R6
+n@r@f
+!i10b 1
+!s85 0
+!s100 5J]FHo<W`<RahE=a1]m9;3
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/RF.v|
+!s108 1552254228.755000
+!s107 D:/CoDWork/SCPUSIM_woJAL/RF.v|
+vsccomp
+VgVBdf]6a]6QJ4FkU3fQ153
+r1
+31
+If5FjY?NHQ8?Yh[lg1P]SF0
+R4
+w1551458210
+8D:/CoDWork/SCPUSIM_woJAL/sccomp.v
+FD:/CoDWork/SCPUSIM_woJAL/sccomp.v
+L0 1
+R5
+R6
+!i10b 1
+!s85 0
+!s100 Wj4zHdAhghDMC4LAd6AXP0
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/sccomp.v|
+!s108 1552254229.020000
+!s107 D:/CoDWork/SCPUSIM_woJAL/sccomp.v|
+vsccomp_tb
+VciK9E@b07zQnz0QWN@GCk0
+r1
+31
+I=h;@BdQQ073e=>`@M`J>I0
+R4
+w1552254178
+8D:/CoDWork/SCPUSIM_woJAL/sccomp_tb.v
+FD:/CoDWork/SCPUSIM_woJAL/sccomp_tb.v
+L0 3
+R5
+R6
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/sccomp_tb.v|
+!s100 A9ol1<A3dL^?lI9ff3FO40
+!s108 1552254229.098000
+!s107 D:/CoDWork/SCPUSIM_woJAL/sccomp_tb.v|
+vsccpu
+V2nlHBHNd:OILV4c`<oPFP3
+r1
+31
+IHZHhzKjRd2hLccYob0zT50
+R4
+w1552223886
+8D:/CoDWork/SCPUSIM_woJAL/sccpu.v
+FD:/CoDWork/SCPUSIM_woJAL/sccpu.v
+L0 1
+R5
+R6
+!i10b 1
+!s85 0
+!s100 8^_aekCMoZZNSbXW7fkRo1
+!s90 -reportprogress|300|-work|work|-vopt|D:/CoDWork/SCPUSIM_woJAL/sccpu.v|
+!s108 1552254228.817000
+!s107 D:/CoDWork/SCPUSIM_woJAL/sccpu.v|

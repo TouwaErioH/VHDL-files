@@ -1,0 +1,113 @@
+E:/success/RF.v {1 {vlog -work work -vopt E:/success/RF.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} E:/success/plcomp_tb.v {1 {vlog -work work -vopt E:/success/plcomp_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plcomp_tb
+
+Top level modules:
+	plcomp_tb
+
+} {} {}} E:/success/plctrl.v {1 {vlog -work work -vopt E:/success/plctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plctrl
+
+Top level modules:
+	plctrl
+
+} {} {}} E:/success/plcomp.v {1 {vlog -work work -vopt E:/success/plcomp.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plcomp
+
+Top level modules:
+	plcomp
+
+} {} {}} E:/success/im.v {1 {vlog -work work -vopt E:/success/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} E:/success/plexe.v {1 {vlog -work work -vopt E:/success/plexe.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plexe
+
+Top level modules:
+	plexe
+
+} {} {}} E:/success/dm.v {1 {vlog -work work -vopt E:/success/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/success/plid.v {1 {vlog -work work -vopt E:/success/plid.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plid
+
+Top level modules:
+	plid
+
+} {} {}} E:/success/plreg.v {1 {vlog -work work -vopt E:/success/plreg.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plpc
+-- Compiling module plir
+-- Compiling module plieReg
+-- Compiling module plemReg
+-- Compiling module plmwReg
+
+Top level modules:
+	plpc
+	plir
+	plieReg
+	plemReg
+	plmwReg
+
+} {} {}} E:/success/alu.v {1 {vlog -work work -vopt E:/success/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/success/dffe32.v {1 {vlog -work work -vopt E:/success/dffe32.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dffe32
+
+Top level modules:
+	dffe32
+
+} {} {}} E:/success/mux.v {1 {vlog -work work -vopt E:/success/mux.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} E:/success/plif.v {1 {vlog -work work -vopt E:/success/plif.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plif
+
+Top level modules:
+	plif
+
+} {} {}} E:/success/plcpu.v {1 {vlog -work work -vopt E:/success/plcpu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module plcpu
+
+Top level modules:
+	plcpu
+
+} {} {}}

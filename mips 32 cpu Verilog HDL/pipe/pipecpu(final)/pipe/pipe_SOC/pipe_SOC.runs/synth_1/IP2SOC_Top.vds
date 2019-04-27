@@ -1,0 +1,527 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Apr 27 14:06:42 2019
+# Process ID: 2124
+# Current directory: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1
+# Command line: vivado.exe -log IP2SOC_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP2SOC_Top.tcl
+# Log file: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/IP2SOC_Top.vds
+# Journal file: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IP2SOC_Top.tcl -notrace
+Command: synth_design -top IP2SOC_Top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4792 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 361.160 ; gain = 75.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IP2SOC_Top' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/pipe_Top.v:3]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/clk_div.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (1#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/clk_div.v:21]
+INFO: [Synth 8-638] synthesizing module 'pipecpu' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipecpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipepc' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipepc.v:1]
+INFO: [Synth 8-638] synthesizing module 'dffe32' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/dffe32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'dffe32' (2#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/dffe32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipepc' (3#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipepc.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeif' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeif.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux4' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:15]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:26]
+INFO: [Synth 8-256] done synthesizing module 'mux4' (4#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:15]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/alu.v:16]
+INFO: [Synth 8-256] done synthesizing module 'alu' (5#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/alu.v:16]
+INFO: [Synth 8-256] done synthesizing module 'pipeif' (6#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeif.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeir' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeir.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeir' (7#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeir.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeid' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeid.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipecu' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipecu.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipecu' (8#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipecu.v:1]
+INFO: [Synth 8-638] synthesizing module 'RF' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/RF.v:2]
+WARNING: [Synth 8-6014] Unused sequential element i was removed.  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/RF.v:16]
+WARNING: [Synth 8-5788] Register rf_reg[0] in module RF is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/RF.v:18]
+INFO: [Synth 8-256] done synthesizing module 'RF' (9#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/RF.v:2]
+INFO: [Synth 8-638] synthesizing module 'mux2' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:2]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (10#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:2]
+WARNING: [Synth 8-3848] Net rst in module/entity pipeid does not have driver. [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeid.v:37]
+INFO: [Synth 8-256] done synthesizing module 'pipeid' (11#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeid.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipedereg' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipedereg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipedereg' (12#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipedereg.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeexe' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeexe.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized0' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:2]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized0' (12#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/mux.v:2]
+INFO: [Synth 8-256] done synthesizing module 'pipeexe' (13#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeexe.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipeemreg' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeemreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipeemreg' (14#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeemreg.v:1]
+INFO: [Synth 8-638] synthesizing module 'pipemwreg' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipemwreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipemwreg' (15#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipemwreg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pipecpu' (16#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipecpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'imem' [D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/.Xil/Vivado-2124-A203-42/realtime/imem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imem' (17#1) [D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/.Xil/Vivado-2124-A203-42/realtime/imem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dm' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/dm.v:3]
+INFO: [Synth 8-256] done synthesizing module 'dm' (18#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/dm.v:3]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MIO_BUS' (19#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-638] synthesizing module 'Multi_CH32' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Multi_CH32' (20#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/seg7x16.v:87]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (21#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'IP2SOC_Top' (22#1) [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/pipe_Top.v:3]
+WARNING: [Synth 8-3331] design pipeid has unconnected port clrn
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 400.488 ; gain = 114.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin U_RF:rst to constant 0 [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/success - metoo2/pipeid.v:37]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 400.488 ; gain = 114.543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/.Xil/Vivado-2124-A203-42/dcp3/imem_in_context.xdc] for cell 'U_IM'
+Finished Parsing XDC File [D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/.Xil/Vivado-2124-A203-42/dcp3/imem_in_context.xdc] for cell 'U_IM'
+Parsing XDC File [D:/pipe/pipe_SOC/pipe_SOC.srcs/constrs_1/imports/pipecpu/Nexys4DDR_CPU.xdc]
+Finished Parsing XDC File [D:/pipe/pipe_SOC/pipe_SOC.srcs/constrs_1/imports/pipecpu/Nexys4DDR_CPU.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/pipe/pipe_SOC/pipe_SOC.srcs/constrs_1/imports/pipecpu/Nexys4DDR_CPU.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/IP2SOC_Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/IP2SOC_Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 800.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U_IM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clkdiv_reg was removed.  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/clk_div.v:32]
+INFO: [Synth 8-5546] ROM "rf_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rf_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/seg7x16.v:34]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 13    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 10    
+	   3 Input     32 Bit        Muxes := 3     
+	  11 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 35    
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module dffe32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+Module pipecu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module RF 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 32    
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module pipeid 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module pipedereg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module pipeemreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module pipemwreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module MIO_BUS 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+Module Multi_CH32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 1     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U_CLKDIV/clkdiv_reg was removed.  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/clk_div.v:32]
+WARNING: [Synth 8-6014] Unused sequential element U_7SEG/cnt_reg was removed.  [D:/pipe/pipe_SOC/pipe_SOC.srcs/sources_1/imports/pipecpu/FPGATop/seg7x16.v:34]
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[17]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[18]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[19]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[20]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[21]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[22]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[23]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[24]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[25]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[26]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[27]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[28]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[29]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U_SCPU/de_reg/eimm_reg[30]' (FDC) to 'U_SCPU/de_reg/eimm_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_SCPU/de_reg/eimm_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U_7SEG/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[26]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[27]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[28]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[29]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[30]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_CLKDIV/clkdiv_reg[31]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_SCPU/de_reg/eimm_reg[31]) is unused and will be removed from module IP2SOC_Top.
+WARNING: [Synth 8-3332] Sequential element (U_7SEG/o_seg_r_reg[7]) is unused and will be removed from module IP2SOC_Top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+------------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives       | 
++------------+---------------+-----------+----------------------+------------------+
+|IP2SOC_Top  | U_DM/dmem_reg | Implied   | 128 x 32             | RAM128X1S x 32   | 
++------------+---------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 800.957 ; gain = 515.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:50 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |imem          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |imem      |     1|
+|2     |BUFG      |     2|
+|3     |CARRY4    |    59|
+|4     |LUT1      |   149|
+|5     |LUT2      |   114|
+|6     |LUT3      |   170|
+|7     |LUT4      |    81|
+|8     |LUT5      |   363|
+|9     |LUT6      |  1695|
+|10    |MUXF7     |   435|
+|11    |MUXF8     |   130|
+|12    |RAM128X1S |    32|
+|13    |FDCE      |   459|
+|14    |FDPE      |    23|
+|15    |FDRE      |  1024|
+|16    |IBUF      |    18|
+|17    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+------------------+-----------------------+------+
+|      |Instance          |Module                 |Cells |
++------+------------------+-----------------------+------+
+|1     |top               |                       |  4802|
+|2     |  U_7SEG          |seg7x16                |   109|
+|3     |  U_CLKDIV        |clk_div                |    60|
+|4     |  U_DM            |dm                     |    32|
+|5     |  U_Multi         |Multi_CH32             |    32|
+|6     |  U_SCPU          |pipecpu                |  4501|
+|7     |    de_reg        |pipedereg              |   998|
+|8     |    em_reg        |pipeemreg              |   415|
+|9     |    exe_stage     |pipeexe                |   124|
+|10    |      alu_ina     |mux2__parameterized0_4 |    60|
+|11    |      alu_inb     |mux2__parameterized0_5 |    32|
+|12    |      al_unit     |alu_3                  |    24|
+|13    |      ret_addr    |alu_6                  |     8|
+|14    |    id_stage      |pipeid                 |  2442|
+|15    |      U_RF        |RF                     |  2434|
+|16    |      br_addr     |alu_2                  |     8|
+|17    |    if_stage      |pipeif                 |     9|
+|18    |      PCPLUS4     |alu                    |     9|
+|19    |    inst_reg      |pipeir                 |   254|
+|20    |      instruction |dffe32_0               |   193|
+|21    |      pc_plus4    |dffe32_1               |    61|
+|22    |    mw_reg        |pipemwreg              |   104|
+|23    |    prog_cnt      |pipepc                 |   123|
+|24    |      PC          |dffe32                 |   123|
+|25    |    wb_stage      |mux2__parameterized0   |    32|
++------+------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 834.258 ; gain = 147.844
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 834.258 ; gain = 548.313
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 109 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 32 instances
+
+108 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 834.258 ; gain = 554.145
+INFO: [Common 17-1381] The checkpoint 'D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/IP2SOC_Top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 834.258 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 27 14:07:42 2019...

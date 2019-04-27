@@ -1,0 +1,110 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/CoDWork/SCPUSIM/SCPUSIM.mpf 
+# Loading project SCPUSIM
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Loading work.sccomp_tb
+# Loading work.sccomp
+# Loading work.sccpu
+# Loading work.ctrl
+# Loading work.PC
+# Loading work.NPC
+# Loading work.RF
+# Loading work.mux4
+# Loading work.EXT
+# Loading work.mux2
+# Loading work.alu
+# Loading work.dm
+# Loading work.im
+run 2000
+# pc: 00000000
+# instr: 20020005
+# r[ 2] = 0x00000005,
+# pc: 00000004
+# instr: 2003000c
+# r[ 3] = 0x0000000c,
+# pc: 00000008
+# instr: 2067fff7
+# r[ 7] = 0x00000003,
+# pc: 0000000c
+# instr: 00e22025
+# r[ 4] = 0x00000007,
+# pc: 00000010
+# instr: 00642824
+# r[ 5] = 0x00000004,
+# pc: 00000014
+# instr: 00a42820
+# r[ 5] = 0x0000000b,
+# pc: 00000018
+# instr: 10a7000a
+# pc: 0000001c
+# instr: 0064202a
+# r[ 4] = 0x00000000,
+# pc: 00000020
+# instr: 10800001
+# pc: 00000028
+# instr: 00e2202a
+# r[ 4] = 0x00000001,
+# pc: 0000002c
+# instr: 00853820
+# r[ 7] = 0x0000000c,
+# pc: 00000030
+# instr: 00e23822
+# r[ 7] = 0x00000007,
+# pc: 00000034
+# instr: ac670044
+# dmem[0x      50] = 0x00000007,
+# pc: 00000038
+# instr: 8c020050
+# r[ 2] = 0x00000007,
+# pc: 0000003c
+# instr: 0c000011
+# r[31] = 0x00000040,
+# pc: 00000044
+# instr: ac020054
+# dmem[0x      54] = 0x00000007,
+# Break in Module sccomp_tb at D:/CoDWork/SCPUSIM/sccomp_tb.v line 54
+quit -sim
+# Compile of sccomp_tb.v was successful.
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Refreshing D:\CoDWork\SCPUSIM\work.sccomp_tb
+# Loading work.sccomp_tb
+# Loading work.sccomp
+# Loading work.sccpu
+# Loading work.ctrl
+# Loading work.PC
+# Loading work.NPC
+# Loading work.RF
+# Loading work.mux4
+# Loading work.EXT
+# Loading work.mux2
+# Loading work.alu
+# Loading work.dm
+# Loading work.im
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x      50] = 0x00000007,
+# r[ 2] = 0x00000007,
+# r[31] = 0x00000040,
+# dmem[0x      54] = 0x00000007,
+# Break in Module sccomp_tb at D:/CoDWork/SCPUSIM/sccomp_tb.v line 54
+quit

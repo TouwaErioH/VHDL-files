@@ -1,0 +1,3 @@
+studentnosorting_cut 是没有加nop的排序代码
+studentnosorting_cut2加了nop
+cut.dat cut2.dat分别对应

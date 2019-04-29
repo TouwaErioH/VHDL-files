@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Apr 27 14:06:42 2019
+# Process ID: 2124
+# Current directory: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1
+# Command line: vivado.exe -log IP2SOC_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP2SOC_Top.tcl
+# Log file: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1/IP2SOC_Top.vds
+# Journal file: D:/pipe/pipe_SOC/pipe_SOC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IP2SOC_Top.tcl -notrace

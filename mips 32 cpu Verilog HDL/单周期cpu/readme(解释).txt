@@ -1,0 +1,9 @@
+FPGATop文件夹单周期cpu使用的FPGATop
+test(single)文件夹中存放Modelsim的单周期cpu工程。
+单周期cpu在3月27号下板子成功，但是vivado工程忘记拷贝了。流水线cpu的vivado工程在流水线cpu文件夹。
+
+学号为2017301510029   后8位0151  0029
+
+mysort.coe 为vivado中使用的coe文件
+mysort.dat为modelsim仿真中使用的测试文件
+studentnosorting为mars中的代码
